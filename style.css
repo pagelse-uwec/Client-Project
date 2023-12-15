@@ -1,0 +1,72 @@
+div {
+    position:absolute;
+    left: 2%;
+  }
+  .img{
+    height: 165px;
+    columns: 1;
+    display: inline-block;
+    padding: .25rem;
+  }
+  .david{
+    width: 300px;
+    height: 500px;
+  }
+  .logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1%;
+    top: 5%;
+  }
+  .intro{
+  font-size: x-large;
+  color: #663333;
+  }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    position: absolute;
+    left: 8%;
+    font-size: 20px;
+    color: beige;
+    position: absolute;
+    top: 5%;
+}
+nav{
+    position: absolute;
+    right: 50%; 
+}
+.columns {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 5px double;
+}
+.about{
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 5px double;
+    font-size: 25px;
+}
+.dny{
+    width: 450px;
+}
+body{
+    background-color: lightgrey;
+}
+header{
+    background-color: #663333;
+}
+.pages{
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 8%;
+  
+
+}
+@media only screen and (max-width: 600px) {
+    
+  }

@@ -1,12 +1,9 @@
-div {
-    position:absolute;
-    left: 2%;
-  }
+
   .img{
     height: 165px;
     columns: 1;
     display: inline-block;
-    padding: .25rem;
+    
   }
   .david{
     width: 300px;
@@ -15,9 +12,7 @@ div {
   .logo{
     height: 50px;
     width: 50px;
-    position: absolute;
-    left: 1%;
-    top: 5%;
+    vertical-align: middle;
   }
   .intro{
   font-size: x-large;
@@ -26,29 +21,27 @@ div {
 header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
 }
 .name{
-    position: absolute;
-    left: 8%;
     font-size: 20px;
     color: beige;
-    position: absolute;
-    top: 5%;
+    display: inline-block;
+    vertical-align: middle;
 }
-nav{
-    position: absolute;
-    right: 50%; 
-}
+
 .columns {
     column-count: 2;
     column-gap: 40px;
     column-rule: 5px double;
 }
 .about{
-    column-count: 2;
-    column-gap: 40px;
-    column-rule: 5px double;
-    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #663333;
+    font-size: larger;
+    padding: .5rem;
 }
 .dny{
     width: 450px;
@@ -58,15 +51,74 @@ body{
 }
 header{
     background-color: #663333;
+    padding: 1rem;
 }
 .pages{
     font-size: 20px;
     margin: 0;
-    position: absolute;
-    top: 8%;
-  
-
+        color: #EFEAEA;
+        text-decoration: none;
+        background-color: #778899;
+    
+}
+.bench{
+    padding: 0 0 0 110px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.bar{
+    padding: 0 0 0 110px;
+    position: relative;
+    margin-bottom: 24px;
+ }
+.axe{
+    padding: 0 0 0 110px;
+    position: relative;
+    margin-bottom: 24px;
+   
+ }
+.stools{
+    padding: 0 0 0 110px;
+    position: relative;
+    margin-bottom: 24px;
+   
+ }
+.skewer{
+    padding: 0 0 0 110px;
+    position: relative;
+    margin-bottom: 24px;
+    
+ }
+.cupcake{
+    padding: 0 0 0 150px;
+    position: relative;
+    margin-bottom: 24px; 
+}
+ .epoxy{
+    padding: 0 0 0 110px;
+    position: relative;
+}
+ .additions{
+    padding: 0 0 0 110px;
+    position: relative;
+ }
+ .woodburning{   
+    padding: 0 0 0 110px;
+    position: relative;
+}
+.contact{
+    font-size: x-large;
+    column-count: 2;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
 }
 @media only screen and (max-width: 600px) {
-    
+    .columns{
+        column-count: 1;
+    }
+    .creek{
+        width: 200px;
+    }
   }
